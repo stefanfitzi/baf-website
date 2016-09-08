@@ -12,182 +12,22 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<style>
+  
+
+    <script> 
+    $(function(){
+      $("#includedContent").load("nav.html"); 
+    });
+    </script> 
+
     
     
-      a {
-    color: #d9d9d9;
-}
-  body {
-      font: 400 15px/1.8 Lato, sans-serif;
-      color: #777;
-  }
-  h2  {
-      margin: 10px 0 30px 0;
-      letter-spacing: 10px;
-      font-size: 40px;
-      color: #111;
-  }
-  h4{
-
-    margin: 10px 0 30px 0;
-      letter-spacing: 10px;
-      font-size: 20px;
-      color: #d9d9d9;
-  }
-  h3{
-    font-size: 40px;
-    color: #000000;
-  }
-  h5{
-    color: #ffcc00;
-    font-size: 25px;
-  }
-  .container {
-
-      padding: 0.050% 70px;}
-  .nav-tabs li a {
-      color: #777;
-
-  }
-  .form-control {
-      border-radius: 0;
-  }
-  textarea {
-      resize: none;
-  }
-
-  #googleMap {
-      width: 100%;
-      height: 400px;
-
-  }
-  .navbar {
-      font-family: Montserrat, sans-serif;
-      margin-bottom: 0;
-      background-color: #2d2d30;
-      border: 0;
-      font-size: 11px !important;
-      letter-spacing: 4px;
-      opacity: 0.9;
-  }
-  .navbar li a, .navbar .navbar-brand {
-      color: #d5d5d5 !important;
-  }
-    .navbar-brand{
-        width: 90%;
-        height: auto;
-    }
-  
-  .navbar-brand img {
-	border-radius: 2px;
-  }
-  
-    .navbar-brand img {
-	margin-top: -25px;
-	margin-left: -30px !important;
-        
-        width: 100%;
-  }
-  
-  .navbar-nav li a:hover {
-      color: #fff !important;
-  }
-  .navbar-nav li.active a {
-      color: #fff !important;
-      background-color: #29292c !important;
-  }
-  .navbar-default .navbar-toggle {
-      border-color: transparent;
-  }
-  .carousel-inner img {
-      -webkit-filter: grayscale(90%);
-      filter: grayscale(90%); /* make all photos black and white */
-      width: 100%; /* Set width to 100% */
-      margin: auto;
-  }
-  .container-fluid {
-      padding: 1% 50px;
-
-      background: #2d2d30;
-      color: #bdbdbd;
-  }
-  .container{
-    background-color: #ffffff;
-  }
-  .bg-grey {
-      background-color: #f6f6f6;
-  }
-  .logo-small {
-      color: #f4511e;
-      font-size: 50px;
-  }
-  .logo {
-      color: #f4511e;
-      font-size: 200px;
-  }
-  .thumbnail {
-      padding: 0 0 15px 0;
-      border: none;
-      border-radius: 0;
-  }
-  .thumbnail img {
-      width: 100%;
-      height: 100%;
-      margin-bottom: 10px;
-  }
-  .carousel-caption h3 {
-      color: #000000;
-      font-size: 40px;
-
-  }
-   
-
-  footer, footer a  {
-      background-color: #ffffff;
-      color: #1a1a1a;
-      padding: 10px;
-  }
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-
-    }
-  }
-
-    
-    </style>
+<link rel="stylesheet" type="text/css" href="css/app.css" />
  
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" ng-app="starter">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href=""><img src="images/baf1.png"> </a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="programs.html">PROGRAMS</a></li>
-        <li><a href="events.html">EVENTS</a></li>
-        <li><a href="contacts.html">CONTACT</a></li>
-
-        <li><a href="https://www.youtube.com/channel/UCC6B3c2_MiWuOkpellAsg6Q">MORE</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
+ <div id="includedContent"></div>
 <br>
 <br>
 <br>
